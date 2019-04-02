@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.centerThem {
+    width: 80vh;
+    margin: 5vh auto;
+    padding: 1vh;
+    border: 1px solid #565656;
+    border-radius: 2vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.5vh;
+}
+
+form,
+section {
+    margin: 1vh 5vh;
+}
+
+legend,
+label,
+h2 {
+    width: 100%;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+    line-height: 2.5vh;
+    font-size: 2.5vh;
+    font-weight: 500;
+}
+
+input,
+button {
+    border-radius: .5vh;
+    font-size: 2vh;
+}
+
+input {
+    text-align: center;
+}
+
+button {
+    margin-left: .5vh;
+    font-weight: 500;
+    background-color: rgba(180, 87, 157, 0.918);
+    padding: .3vh;
+    margin-bottom: 30px;
+}
+
+.hidden,
+.hidden2,
+.hidden3,
+.hiddenBreed {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}

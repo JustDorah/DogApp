@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lorem Dog</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <div class="centerThem">
+        <header role="banner">
+            <h1>DISPLAY DOG IMAGES</h1>
+        </header>
+        <Main role="main">
+            <form action="#" method="get" class="displayDogs">
+                <legend>How many random dogs do you want to see?</legend>
+                <label for="dogs">Number of dogs(1-50):</label>
+                <input type="number" name="dogs" id="dogs" min="1" max="50" value="3" class="submitInput"/>
+                <button role="button" type="submit" class="submitButton">Submit</button>
+            </form>
+            
+            <!-- Display dog  based on breed -->
+            <!-- <form action="#" method="get" class="displayDogBreed hiddenBreed">
+                <legend>What breed of dog do you want to see?</legend>
+                <label for="dogs">Type here</label>
+                <input type="text" name="dogs" id="dogs" value="hound" class="submitInput" />
+                <button role="button" type="submit" class="submitButton">Submit</button>
+            </form> -->
+
+            <section class="results hidden">
+                <hr />
+                <h2><strong>Lindo!</strong></h2>
+                <p class="notFound hidden2">I'm sorry, we could not find that breed. Try another one</p>
+                <img class="results-img hidden3" alt="placeholder">
+                <ul></ul>
+            </section>
+        </Main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- ***LOCAL JS*** -->
+
+    <!-- <script src="displayInConsole.js"></script> -->
+    
+    <script src="displayInDOM.js"></script>
+
+    <!-- <script src="displayBreed.js"></script> -->
+</body>
+
+</html>
